@@ -18,7 +18,7 @@ It's a good practice to work in a virtual environment to keep project dependenci
     python -m venv env
     ```
 
-This will create a new directory called `env
+    This will create a new directory called `env
 
 2. Activate the virtual environment:
 
@@ -26,7 +26,7 @@ This will create a new directory called `env
     source env/bin/activate
     ```
 
-This will change your terminal prompt to indicate that you're working in the virtual environment.
+    This will change your terminal prompt to indicate that you're working in the virtual environment.
 
 3. Install the project dependencies:
 
@@ -34,7 +34,7 @@ This will change your terminal prompt to indicate that you're working in the vir
     pip install -r requirements.txt
     ```
 
-This will install all the dependencies listed in the `requirements.txt` file.
+    This will install all the dependencies listed in the `requirements.txt` file.
 
 4. Setup Config File by creating a config.py that contains the following:
 
@@ -44,3 +44,4 @@ This will install all the dependencies listed in the `requirements.txt` file.
     EMAIL = 'EMAIL USED FOR ONEMAPS ACCOUNT'
     PASSWORD = 'YOUR_PASSWORD>'
     ```
+    Note that you will need to register for the OneMap API
