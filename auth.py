@@ -25,6 +25,3 @@ def get_access_token(email, password):
         # Print an error message if the request was not successful
         print("Request failed with status code:", response.status_code)
         print("Response content:", response.text)
-
-
-# get_access_token("advait001@e.ntu.edu.sg", "Squirtles69$onemap")
